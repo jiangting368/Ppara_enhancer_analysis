@@ -1,0 +1,2 @@
+cd /Lustre03/data/Lixiaokai/04.suduo/4C_seq/pipe4C/Ppara
+/Lustre01/Lixiaokai/software/miniconda3/bin/Rscript /Lustre01/Lixiaokai/software/pipe4C-master/pipe4C.R --confFile=./conf.yml --vpFile=./VPinfo_Ppara.txt --fqFolder=/Lustre03/data/Lixiaokai/04.suduo/4C_seq/pipe4C/Ppara --outFolder=./out_Ppara/ --cores 8 --plot --wig  -g

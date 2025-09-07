@@ -1,0 +1,5 @@
+expname	primer	firstenzyme	secondenzyme	genome	vpchr	vppos	analysis	fastq
+N_Ppara_B1	CCACAGGTATGAGGCTGATC	DpnII	Csp6I	mm10	15	85734018	all	N-Ppara-B1_1.clean.fq.gz
+N_Ppara_B2	CCACAGGTATGAGGCTGATC	DpnII	Csp6I	mm10	15	85734018	all	N-Ppara-B2_1.clean.fq.gz
+Ppara_e1	CCACAGGTATGAGGCTGATC	DpnII	Csp6I	mm10	15	85734018	all	Ppara-e1_1.clean.fq.gz
+Ppara_e2	CCACAGGTATGAGGCTGATC	DpnII	Csp6I	mm10	15	85734018	all	Ppara-e2_1.clean.fq.gz

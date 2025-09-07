@@ -1,0 +1,23 @@
+samples:
+  - SRX1630253
+  - SRX1630255
+
+paths:
+  raw_data: /Lustre03/data/Lixiaokai/12.GRO_seq/GRO.seq_data/2016_JBC_adiposetissue
+  work_dir: /Lustre03/data/Lixiaokai/12.GRO_seq/2016_JBC_adiposetissue
+  homer_analysis: HOMER.analysis
+
+genome:
+  fasta: /Lustre01/Lixiaokai/genome_database/mouse_mm10/bwa_index/bwa_idx_mm10_ucsc_husilu/mm10.fa
+  fai: /Lustre01/Lixiaokai/genome_database/mouse_mm10/bwa_index/bwa_idx_mm10_ucsc_husilu/mm10.fa.fai
+
+software:
+  fastqc: /Lustre01/Lixiaokai/software/FastQC/fastqc
+  cutadapt: /Lustre01/Lixiaokai/software/miniconda3/bin/cutadapt
+  bwa: /usr/bin/bwa
+  samtools: /usr/bin/samtools
+  homer: /Lustre01/Lixiaokai/software/miniconda3/bin
+
+adapters:
+  generic: CGACAGGTTCAGAGTTCTACAGTCCGACGATC
+  polyA: AAAAAAAAAAAAAAAAAAAA

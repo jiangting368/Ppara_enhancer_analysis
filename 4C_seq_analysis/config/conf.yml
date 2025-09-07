@@ -1,0 +1,90 @@
+default:
+ fragFolder: /Lustre03/data/Lixiaokai/04.suduo/4C_seq/pipe4C/Ppara
+ normalizeFactor: 1000000
+ qualityCutoff : 0
+ trimLength : 0
+ minAmountReads : 10
+ readsQuality : 1
+ cores : 1
+ wSize : 21
+ nTop : 2
+ mapUnique : TRUE
+ nonBlind : TRUE
+ wig : TRUE
+ cisplot : TRUE
+ genomePlot : TRUE
+ tsv : TRUE
+ bins : TRUE
+ mismatchMax : 5
+ chr_random : FALSE
+ chrUn : FALSE
+ chrM : FALSE
+
+ enzymes:
+  -
+    BamHI
+    GGATCC
+  -
+    BfaI
+    CTAG
+  -
+    Csp6I
+    GTAC
+  -
+    DpnII
+    GATC
+  -
+    EcoRI
+    GAATTC
+  -
+    HindIII
+    AAGCTT
+  -
+    MboI
+    GATC
+  -
+    NlaIII
+    CATG
+  -
+    XbaI
+    TCTAGA
+ genomes:
+  -
+    mm9
+    BSgenome.Mmusculus.UCSC.mm9
+  -
+    mm10
+    BSgenome.Mmusculus.UCSC.mm10
+  -
+    hg19
+    BSgenome.Hsapiens.UCSC.hg19
+  -
+    hg38
+    BSgenome.Hsapiens.UCSC.hg38
+  -
+    susScr11
+    BSgenome.Sscrofa.UCSC.susScr11
+
+
+ bowtie2:
+  -
+    mm9
+    /data2/repository/genome/mm9/Bowtie2Index/
+  -
+    mm10
+    /Lustre01/Lixiaokai/genome_database/mouse_mm10/bowtie2_mm10_ucsc_husilu/
+  -
+    hg19
+     /data2/repository/genome/hg19/Bowtie2Index/
+  -
+    hg38
+    /data2/repository/genome/hg38/Bowtie2Index/
+
+
+
+ plot:
+  maxY: 2500
+  plotView: 1000000
+  xaxisUnit: 'Mb'
+  plotType: 'PDF'
+  binSize: 25000
